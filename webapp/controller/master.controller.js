@@ -9,7 +9,7 @@ sap.ui.define([
 
 		return Controller.extend("com.olit.sandbox.controller.master", {
 			onInit: function () {
-				//This is an example comment
+				//This is an example comment with new user
 			}
 		});
 	});
