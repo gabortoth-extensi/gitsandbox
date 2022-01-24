@@ -9,6 +9,7 @@ sap.ui.define([
 
 		return Controller.extend("com.olit.sandbox.controller.master", {
 			onInit: function () {
+				//new comment
 				this.onLogData();
 			},
 
