@@ -9,7 +9,11 @@ sap.ui.define([
 
 		return Controller.extend("com.olit.sandbox.controller.master", {
 			onInit: function () {
+				this.onLogData();
+			},
 
+			onLogData : function(){
+				console.log("This is a test log");
 			}
 		});
 	});
